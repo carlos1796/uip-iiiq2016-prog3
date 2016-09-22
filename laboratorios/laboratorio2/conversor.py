@@ -1,0 +1,6 @@
+a = float (input ("Introduce centavos: "))
+print ("Dolares: " + str (a/100))
+print ("EUR: " + str (a/100*0.8965))
+print ("YEN: " + str (a/100*101.5744))
+print ("BP: " + str (a/100*0.7702))
+print ("MXN: " + str (a/100*19.7843))
